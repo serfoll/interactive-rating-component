@@ -39,7 +39,7 @@ const Survey = () => {
 
   const ratingController = (e) => {
     e.preventDefault();
-    let currClass;
+    let currClasses;
     //gather all choice buttons
     const btns = document.querySelectorAll('.choice');
 
@@ -47,15 +47,15 @@ const Survey = () => {
     for (let i = 0; i < btns.length; i++) {
       if (btns[i] !== e.target) {
         //get the current classes
-        currClass = btns[i].className.split(' ');
+        currClasses = btns[i].className.split(' ');
         //remove current class
-        const cIndex = currClass.indexOf('current');
+        const cIndex = currClasses.indexOf('current');
         //remove current if exists
         if (cIndex !== -1) {
-          currClass.pop();
+          currClasses.pop();
         }
         //set classes
-        btns[i].className = currClass.join(' ');
+        btns[i].className = currClasses.join(' ');
       } else {
         btns[i].className += ' current';
       }

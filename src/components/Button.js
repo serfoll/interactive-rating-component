@@ -3,8 +3,8 @@ import Colors from './Colors';
 
 export default styled.button`
   width: 40px;
-  height: 40px;
-  padding: 13px 0;
+  height: 38px;
+  padding: 12px 0;
   border: none;
   background-color: ${Colors['dark-blue']};
   border-radius: 50%;
@@ -12,8 +12,13 @@ export default styled.button`
 
   @media (min-width: 768px) {
     width: 50px;
-    height: 50px;
+    height: 48px;
     padding: 18px 0;
+  }
+
+  img {
+    margin: auto;
+    width: 16px;
   }
 
   &.choice {

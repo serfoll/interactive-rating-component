@@ -4,17 +4,21 @@ import Colors from './Colors';
 import Survey from './Survey';
 
 const Attribution = styled.div`
-  min-width: 250px;
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
   position: absolute;
-  bottom: 20px;
-  left: calc(50% - 250px / 2);
+  left: calc(50% - 300px / 2);
+  bottom: 40px;
   a {
     color: hsl(228, 45%, 44%);
     :hover {
       color: ${Colors.orange};
     }
+  }
+
+  @media (min-width: 768px) {
+    font-size: 15px;
+    left: calc(50% - 330px / 2);
   }
 `;
 

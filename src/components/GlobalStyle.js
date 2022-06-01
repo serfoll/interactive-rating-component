@@ -48,8 +48,6 @@ export default createGlobalStyle`
 
     color: ${Colors.white};
 
-    p{
-      font-size: 15px;
-    }
+    font-size: 15px;
   }
 `;
