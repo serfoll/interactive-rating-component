@@ -13,7 +13,7 @@ import starIcon from '../images/icon-star.svg';
 
 const Sumbit = styled.div`
   width: 100%;
-  padding: 14px 0;
+  padding: 14px 0 12px 0;
   border: none;
   border-radius: 30px;
   color: ${Colors.white};
