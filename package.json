@@ -4,7 +4,7 @@
   "description": "React parcel boilerplate",
   "scripts": {
     "start": "parcel src/index.html --port 3005 --open",
-    "deploy:src": "parcel build src/index.html --public-url ./"
+    "deploy:src": "parcel build"
   },
   "repository": {
     "type": "git",
