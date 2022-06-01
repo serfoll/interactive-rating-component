@@ -2,7 +2,7 @@
   "name": "react-boiler-plate",
   "version": "1.0.0",
   "description": "React parcel boilerplate",
-  "main": "src/index.js",
+  "main": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html --port 3005 --open",
     "deploy:src": "parcel build src/index.html --public-url ./"
