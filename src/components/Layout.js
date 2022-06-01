@@ -31,7 +31,11 @@ const Layout = () => {
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
         </a>
-        . Coded by <a href="#">Sergio Follyvi</a>.
+        . Coded by{' '}
+        <a href="https://www.frontendmentor.io/profile/serfoll">
+          Sergio Follyvi
+        </a>
+        .
       </Attribution>
     </>
   );
