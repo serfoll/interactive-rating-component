@@ -30,6 +30,7 @@ Desktop
 ![](./screenshot.png)
 
 Mobile
+
 ![](./screenshot-mobile.png)
 
 ### Links
