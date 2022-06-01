@@ -30,12 +30,13 @@ Desktop
 ![](./screenshot.png)
 
 Mobile
+
 ![](./screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/serfoll/interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://62979d679f342d0009bc41dd--lucky-chaja-8dc153.netlify.app/)
+- Solution URL: [github](https://github.com/serfoll/interactive-rating-component)
+- Live Site URL: [netlify](https://62979d679f342d0009bc41dd--lucky-chaja-8dc153.netlify.app/)
 
 ## My process
 
