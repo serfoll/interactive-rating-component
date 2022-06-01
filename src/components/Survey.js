@@ -22,7 +22,8 @@ const Sumbit = styled.div`
   text-align: center;
   letter-spacing: 2px;
   cursor: pointer;
-  :hover {
+  :hover,
+  :active {
     background-color: ${Colors.white};
     color: ${Colors.orange};
   }
